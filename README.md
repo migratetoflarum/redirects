@@ -27,7 +27,7 @@ You can configure rules that trigger a redirect when they match the current requ
 A rule has the following settings:
 
 | Name | Default value | Description |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Condition | | A pattern that will be matched against the current request. You can specify a full URI or just part of it. You can include the protocol, hostname, port, path and query string. You can insert a wildcard `*` to replace a part of a subdomain, path or query string. The wildcard doesn't match `.` or `/` so it can't match a full domain name or full path.  Query strings are matched separately, even if they are in a different order in the actual request. Query parameters present in the request but not in the condition are ignored and don't make the rule fail. If you don't specify a host, it's better to always start the path with `/` to prevent the rule from confusing host and path. |
 | Redirect To | | The url to redirect to. The value matched by wildcards in **Condition** can be used as `$1`, `$2` and so on. Special values `$scheme`, `$host` and `$path` will be replaced with the values extracted from the original request (`$scheme` is `http` or `https` and `$path` includes the starting `/`) |
 | Override Flarum | No | By default Rules are only run when Flarum encounters a 404 error to prevent slowing down the forum when rendering non-ruled routes. But if your rule also matches a route defined by Flarum or an extension, you'll need to enable this option to run the rule on every request. Be careful as you can lock yourself out of the forum if you match login or administrative routes ! |
