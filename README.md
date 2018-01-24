@@ -1,6 +1,6 @@
 # Redirects extension by MigrateToFlarum
 
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/migratetoflarum/redirects/blob/master/LICENSE.md) [![Latest Stable Version](https://img.shields.io/packagist/v/migratetoflarum/redirects.svg)](https://packagist.org/packages/migratetoflarum/redirects) [![Total Downloads](https://img.shields.io/packagist/dt/migratetoflarum/redirects.svg)](https://packagist.org/packages/migratetoflarum/redirects) [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/clarkwinkelmann)
+[![Build status](https://travis-ci.org/migratetoflarum/redirects.svg?branch=master)](https://travis-ci.org/migratetoflarum/redirects) [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/migratetoflarum/redirects/blob/master/LICENSE.md) [![Latest Stable Version](https://img.shields.io/packagist/v/migratetoflarum/redirects.svg)](https://packagist.org/packages/migratetoflarum/redirects) [![Total Downloads](https://img.shields.io/packagist/dt/migratetoflarum/redirects.svg)](https://packagist.org/packages/migratetoflarum/redirects) [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/clarkwinkelmann)
 
 This extension allows you to configure redirects to and from your Flarum. More settings are coming soon.
 
