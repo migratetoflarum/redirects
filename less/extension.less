@@ -1,0 +1,33 @@
+.RedirectSettings {
+    .RedirectRule {
+        display: flex;
+        align-items: center;
+        padding: 10px 10px 10px 0;
+        margin: 10px 0;
+        background: @body-bg;
+
+        .RedirectRule-handle {
+            padding: 0 10px;
+        }
+
+        .RedirectRule-settings {
+            flex-grow: 1;
+        }
+
+        .RedirectRule-row {
+            display: flex;
+            margin: 0 -10px;
+
+            .Form-group {
+                width: 50%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.Modal-body .RedirectSettings .FormControl {
+    color: @control-color;
+    background-color: @control-bg;
+}

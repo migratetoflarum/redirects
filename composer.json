@@ -1,0 +1,50 @@
+{
+    "name": "migratetoflarum/redirects",
+    "description": "Redirect urls to your Flarum",
+    "keywords": [
+        "extension",
+        "flarum",
+        "migration",
+        "redirects"
+    ],
+    "type": "flarum-extension",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/migratetoflarum/redirects/issues",
+        "source": "https://github.com/migratetoflarum/redirects"
+    },
+    "require": {
+        "php": ">=7.0",
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Redirects",
+            "icon": {
+                "name": "angle-double-right",
+                "backgroundColor": "#e7672e",
+                "color": "#fafafa"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MigrateToFlarum\\Redirects\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MigrateToFlarum\\Redirects\\Tests\\": "tests/"
+        }
+    }
+}

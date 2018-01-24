@@ -1,0 +1,29 @@
+migratetoflarum-redirects:
+    admin:
+        settings:
+            title: Redirect Settings
+
+            field:
+                enabled: Enable this rule
+                condition: Condition
+                redirect: Redirect To
+                active: Override Flarum
+                type: Redirect Type
+                external: Redirect is external
+
+            option:
+                301: 301 (Permanent redirect)
+                302: 302 (Temporary redirect)
+
+            control:
+                add: Add
+                delete: Delete
+
+            name:
+                rule: Rule {number}
+
+            description: >
+                Rules with "Override Flarum" run before the forum routes while the other only run when Flarum encounters a 404 error.
+                Rules are run in the order you define below, from top to bottom.
+                The first matching rule will be used for the redirect.
+                Check the complete documentation on <a>GitHub</a>.
