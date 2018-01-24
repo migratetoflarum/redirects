@@ -34,6 +34,9 @@
                 "name": "angle-double-right",
                 "backgroundColor": "#e7672e",
                 "color": "#fafafa"
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/8597-redirects"
             }
         }
     },

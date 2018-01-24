@@ -122,3 +122,12 @@ You'll need to edit/delete the `migratetoflarum-redirects.rules` setting in your
 
 This is a free extension by MigrateToFlarum, an online forum migration tool (launching soon).
 Follow us on Twitter for updates https://twitter.com/MigrateToFlarum
+
+Need a custom Flarum extension ? [Contact Clark Winkelmann !](https://clarkwinkelmann.com/flarum)
+
+## Links
+
+- [Flarum Discuss post](https://discuss.flarum.org/d/8597-redirects)
+- [Source code on GitHub](https://github.com/migratetoflarum/redirects)
+- [Report an issue](https://github.com/migratetoflarum/redirects/issues)
+- [Download via Packagist](https://packagist.org/packages/migratetoflarum/redirects)
