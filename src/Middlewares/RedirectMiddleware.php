@@ -86,7 +86,8 @@ class RedirectMiddleware implements MiddlewareInterface
             $url = $generator->toPath(starts_with($url, '/') ? substr($url, 1) : $url);
         }
 
-        return $response->withStatus(Arr::get($settings, 'type', self::DEFAULT_TYPE))->withHeader('Location', $url);
+        // Use '' for default reason phrase as null isn't a valid default for the underlying PSR implementation
+        return $response->withStatus(Arr::get($settings, 'type', self::DEFAULT_TYPE), '')->withHeader('Location', $url);
     }
 
     protected function getRules(bool $active): array
